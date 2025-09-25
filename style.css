@@ -86,11 +86,20 @@ input[type="button"] {
   gap: 10px;
 }
 
+.gender-title label {
+  font-weight: 600;
+}
+
 .genders {
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+}
+
+.gender-radio {
+  display: flex;
+  gap: 10px;
 }
 
 .form-btn {
@@ -133,10 +142,8 @@ input[type="button"] {
   }
 
   .genders {
-    display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: flex-start;
-    cursor: pointer;
+    gap: 10px;
   }
 }
