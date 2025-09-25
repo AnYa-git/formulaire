@@ -7,13 +7,13 @@ Ce projet affiche un **formulaire responsive** avec une mise en page en grille e
 
 ## 🚀 Live Demo
 
-👉 [Voir la page en ligne](https://anya-git.github.io/Formulaire/)
+👉 [Voir la page en ligne](https://anya-git.github.io/formulaire/)
 
 ---
 
 ## 📂 Repository
 
-👉 [Accéder au repo GitHub](https://github.com/AnYa-git/Formulaire.git)
+👉 [Accéder au repo GitHub](https://github.com/AnYa-git/formulaire.git)
 
 ---
 
