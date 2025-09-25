@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Formulaire d'inscription</h1>
+      </div>
+      <form action="#">
+        <div class="form-container">
+          <div class="form-content">
+            <label for="name">Nom</label>
+            <input type="text" placeholder="Entrez votre nom" required />
+          </div>
+          <div class="form-content">
+            <label for="username">Nom d'utilisateur</label>
+            <input
+              type="text"
+              placeholder="Entrez un nom d'utilisateur"
+              required
+            />
+          </div>
+
+          <div class="form-content">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Entrez votre e-mail" required />
+          </div>
+
+          <div class="form-content">
+            <label for="tel">N° de téléphone</label>
+            <input
+              type="tel"
+              placeholder="Entrez votre numéro de téléphone"
+              required
+            />
+          </div>
+          <div class="form-content">
+            <label for="password">Mot de passe</label>
+            <input
+              type="password"
+              placeholder="Entrez votre mot de passe"
+              required
+            />
+          </div>
+          <div class="form-content">
+            <label for="password">Confirmation mot de passe</label>
+            <input
+              type="password"
+              placeholder="Confirmez votre mot de passe"
+              required
+            />
+          </div>
+          <div class="form-gender">
+            <div class="gender-title">
+              <label for="gender">Genre</label>
+            </div>
+            <div class="genders">
+              <input type="radio" id="homme" name="gender" /><label for="homme"
+                >Homme</label
+              >
+
+              <input type="radio" id="femme" name="gender" /><label for="femme"
+                >Femme</label
+              >
+              <input type="radio" id="noanswer" name="gender" /><label
+                for="noanswer"
+                >Préfére ne pas dire</label
+              >
+            </div>
+          </div>
+          <div class="form-btn">
+            <input type="button" value="Inscrire" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
