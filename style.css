@@ -31,7 +31,7 @@ body {
   font-size: 25px;
   font-weight: 600;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .title h1::before {
@@ -79,6 +79,10 @@ input[type="button"] {
   cursor: pointer;
 }
 
+input[type="radio"] {
+  cursor: pointer;
+}
+
 .form-gender {
   display: flex;
   flex-direction: column;
@@ -94,7 +98,6 @@ input[type="button"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
 }
 
 .gender-radio {
